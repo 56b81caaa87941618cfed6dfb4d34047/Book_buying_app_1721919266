@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1721919279', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Everything About Buying Books Online</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to commonly asked questions about our book buying app</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1721919279', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What types of books can I buy?",
+          a: "Our app offers a vast selection of books across various genres like fiction, non-fiction, academic texts, children's books, and more from numerous publishers and authors."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "How do I place an order?",
+          a: "Browse through our book catalog, add desired titles to your cart, proceed to checkout, provide shipping and payment details, and your order will be processed swiftly."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Are there any discounts available?",
+          a: "Yes, we regularly offer discounts on selected books as well as sitewide promotions. Subscribe to our newsletter to stay updated on the latest deals and offers."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "How long does delivery take?",
+          a: "Delivery times may vary based on your location, but we strive to deliver most orders within 5-7 business days. Expedited shipping options are also available at checkout for faster delivery."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "Do you offer returns or exchanges?",
+          a: "Absolutely, we have a hassle-free return policy. If you're not satisfied with your purchase, you can return or exchange the book within 30 days of delivery for a full refund or replacement."
         }
       ]
     }
